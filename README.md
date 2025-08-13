@@ -21,7 +21,7 @@ This project implements a sophisticated automated essay scoring system for IELTS
 ## 🏗️ Architecture & Methodology
 
 ### 1. Text Preprocessing & Embedding Generation
-- **Primary Embedding Model**: Alibaba-NLP/gte-Qwen2-7B-instruct
+- **Primary Embedding Model**: Qwen/Qwen3-Embedding-8B
 - **Feature Embedding Model**: BAAI/bge-large-en-v1.5
 - **Optimization**: A100 GPU-optimized batch processing with FP16 precision
 - **Text Cleaning**: Comprehensive normalization and preprocessing pipeline
@@ -83,16 +83,7 @@ BDC-Internal/
 - **GPU Optimization**: A100-optimized training with memory management
 - **Anchor-based Optimization**: Using previous submissions as optimization targets
 
-### 3. **Ensemble Methodology**
-- **Multi-seed Training**: 5 different random seeds for robust predictions
-- **Dimensionality Reduction Comparison**: PCA vs SVD analysis
-- **Weighted Ensemble**: Performance-based prediction combination
-
 ## 📈 Results & Performance
-
-### Model Performance
-- **Ensemble Benefits**: Improved robustness through multi-seed training
-- **Feature Importance**: Semantic similarity and discourse markers as top predictors
 
 ### Key Findings
 1. **Semantic Similarity** is the strongest predictor across all dimensions
@@ -113,7 +104,7 @@ pip install scikit-learn matplotlib seaborn tqdm
 python -m spacy download en_core_web_sm
 
 # Download NLTK data
-python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
+python -c "import nltk; nltk.download('punkt_tab'); nltk.download('stopwords')"
 ```
 
 ### Running the Pipeline
