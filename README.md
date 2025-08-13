@@ -17,6 +17,7 @@ This project implements a sophisticated automated essay scoring system for IELTS
   - `coherence_and_cohesion`: Logical organization and flow of ideas  
   - `lexical_resource`: Vocabulary range, accuracy, and appropriateness
   - `grammatical_range`: Grammar accuracy, complexity, and variety
+- **Hugging Face**: Since the embedding and feature engineering takes time, we highly recommend visiting our [Huggingface Repository](https://huggingface.co/datasets/alfiwillianz/BDC-Internal) for the finished dataset.
 
 ## 🏗️ Architecture & Methodology
 
