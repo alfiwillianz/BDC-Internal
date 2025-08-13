@@ -8,7 +8,7 @@ This project implements a sophisticated automated essay scoring system for IELTS
 
 ### ⚙️ Project Constraints
 
-This project was developed under the following computational limitations:
+This project was developed under the following computational limitations (Paperspace Notebook):
 - **GPU**: NVIDIA A100 80GB
 - **CPU**: 22 vCores Intel Xeon Gold  
 - **RAM**: 88 GB ECC
