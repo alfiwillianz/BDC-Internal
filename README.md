@@ -111,7 +111,6 @@ python -c "import nltk; nltk.download('punkt_tab'); nltk.download('stopwords')"
 2. **Feature Engineering**: `02 Feature Engineering.ipynb` - Extract comprehensive features
 3. **Modeling**: `03 Modelling.ipynb` - Train CatBoost models
 4. **Hyperparameter Tuning**: `04 Hyperparameter Tuning.ipynb` - Optimize performance
-5. **Ensemble**: `05 PCA vs SVD Ensemble Pipeline.ipynb` - Advanced ensemble methods
 
 ### Quick Start
 ```python
@@ -180,7 +179,6 @@ The notebooks include comprehensive visualizations:
 1. **Anchor-based Tuning**: Use previous submissions as optimization targets
 2. **Multi-seed Robustness**: Train with multiple random seeds
 3. **Ensemble Diversity**: Combine PCA and SVD dimensionality reduction
-4. **Feature Selection**: Focus on interpretable, domain-relevant features
 
 ### Key Success Factors
 - Deep understanding of IELTS scoring criteria
