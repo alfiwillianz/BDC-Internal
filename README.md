@@ -56,7 +56,6 @@ This project implements a sophisticated automated essay scoring system for IELTS
 - **Primary Model**: CatBoost with `MultiRMSEWithMissingValues` loss function
 - **Dimensionality Reduction**: PCA (256 components) for embedding compression
 - **Hyperparameter Optimization**: Optuna-based tuning with anchor submissions
-- **Ensemble Strategy**: Multi-seed bagging for robust predictions
 
 ## 📁 Project Structure
 
