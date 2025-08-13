@@ -67,10 +67,7 @@ BDC-Internal/
 ├── 02 Feature Engineering.ipynb   # Comprehensive feature extraction
 ├── 03 Modelling.ipynb             # CatBoost model training
 ├── 04 Hyperparameter Tuning.ipynb # Optuna optimization
-├── 05 PCA vs SVD Ensemble Pipeline.ipynb # Advanced ensemble methods
 ├── Anchors/                       # Submission anchors for optimization
-├── df_train.csv                   # Training dataset
-├── df_test.csv                    # Test dataset
 └── README.md                      # This file
 ```
 
