@@ -198,7 +198,7 @@ This project was developed for the Satria Data BDC 2025 Internal Selection. The 
 - IELTS Assessment Criteria and Scoring Guidelines
 - Academic research in automated essay scoring
 - Advanced NLP techniques for text quality assessment
-- Ensemble methods in educational data mining
+- Embedding models and their applications in text analysis
 
 ---
 
