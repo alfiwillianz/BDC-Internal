@@ -6,9 +6,9 @@
 
 This project implements a sophisticated automated essay scoring system for IELTS (International English Language Testing System) essays using advanced machine learning techniques. Our solution predicts scores across four key assessment dimensions using deep text embeddings and comprehensive linguistic feature engineering.
 
-### Project Constraints
+### ⚙️ Project Constraints
 
-This project was developed under the following computational and budget limitations:
+This project was developed under the following computational limitations:
 - **GPU**: NVIDIA A100 80GB
 - **CPU**: 22 vCores Intel Xeon Gold  
 - **RAM**: 88 GB ECC
