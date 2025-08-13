@@ -9,7 +9,7 @@ This project implements a sophisticated automated essay scoring system for IELTS
 ## 📊 Dataset & Problem Statement
 
 - **Task**: Multi-target regression for automated essay scoring
-- **Dataset**: IELTS essays with prompts and human-scored rubrics
+- **Dataset**: IELTS essays with prompts and scored rubrics
 - **Training Data**: 9,912 essays with scored rubrics
 - **Test Data**: 473 essays for prediction
 - **Target Variables** (Score range 0-10):
